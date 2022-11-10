@@ -1,3 +1,4 @@
 Buffer过程 也就是获取专家轨迹并保存的过程
 python  /raid/heyang/yichi/tmp/pycharm_project_1/mtt-distillation-main/buffer.py --dataset=CIFAR10 --train_epochs=30 --num_experts=10  --model=ConvNet
 Distill 过程 获得蒸馏数据集
+python //raid/heyang/yichi/tmp/pycharm_project_1/mtt-distillation-main/distill.py --dataset=CIFAR10 --ipc=1 --syn_steps=20 --expert_epochs=2 --max_start_epoch=18  --lr_img=1000 --lr_lr=1e-05 --lr_teacher=0.01 --model=AlexNet
