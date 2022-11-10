@@ -205,6 +205,12 @@ def get_network(model, channel, num_classes, im_size=(32, 32), dist=True):
         net = AlexNet(channel=channel, num_classes=num_classes)
     elif model == 'VGG11':
         net = VGG11( channel=channel, num_classes=num_classes)
+    elif model == 'VGG13':
+        net = VGG11(channel=channel, num_classes=num_classes)
+    elif model == 'VGG16':
+        net = VGG11(channel=channel, num_classes=num_classes)
+    elif model == 'VGG19':
+        net = VGG11(channel=channel, num_classes=num_classes)
     elif model == 'VGG11BN':
         net = VGG11BN(channel=channel, num_classes=num_classes)
     elif model == 'ResNet18':
