@@ -4,3 +4,5 @@ Distill 过程 获得蒸馏数据集
 python /raid/heyang/yichi/tmp/pycharm_project_1/mtt-distillation-main/distill.py --dataset=CIFAR10 --ipc=1 --syn_steps=20 --expert_epochs=10 --max_start_epoch=20  --lr_img=1000 --lr_lr=1e-05 --lr_teacher=0.01 --model=ConvNet
 
 换模型的话换--model的参数就好
+Distill 这个运行的时候会有一个Wandb的工具
+需要注册一个账户就可以去官网看相关参数了
